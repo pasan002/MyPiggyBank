@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#BB86FC</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_variant">#018786</color>
+
+    <!-- Background Colors -->
+    <color name="background">#121212</color>
+    <color name="surface">#121212</color>
+    <color name="error">#CF6679</color>
+
+    <!-- Text Colors -->
+    <color name="on_primary">#000000</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#FFFFFF</color>
+    <color name="on_surface">#FFFFFF</color>
+    <color name="on_error">#000000</color>
+
+    <!-- Status Bar Colors -->
+    <color name="status_bar_light">#121212</color>
+    <color name="status_bar_dark">#000000</color>
+
+    <!-- Navigation Bar Colors -->
+    <color name="navigation_bar_light">#121212</color>
+    <color name="navigation_bar_dark">#000000</color>
+
+    <!-- Card Colors -->
+    <color name="card_stroke">#424242</color>
+    <color name="card_background">#1E1E1E</color>
+
+    <!-- Transaction Colors -->
+    <color name="income_color">#81C784</color>
+    <color name="expense_color">#E57373</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_primary">#BB86FC</color>
+    <color name="chart_secondary">#03DAC6</color>
+    <color name="chart_tertiary">#FFB74D</color>
+    <color name="chart_quaternary">#F06292</color>
+
+    <!-- Snackbar Colors -->
+    <color name="snackbar_success">#81C784</color>
+    <color name="snackbar_error">#E57373</color>
+    <color name="snackbar_warning">#FFB74D</color>
+    <color name="snackbar_info">#64B5F6</color>
+
+    <!-- Divider Colors -->
+    <color name="divider_light">#424242</color>
+    <color name="divider_dark">#424242</color>
+
+    <!-- Additional Colors (for compatibility) -->
+    <color name="primary_dark">#3700B3</color>
+    <color name="primary_light">#BB86FC</color>
+    <color name="accent">#03DAC6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="text_hint">#8A8A8A</color>
+
+    <!-- Legacy named colors -->
+    <color name="income_green">#81C784</color>
+    <color name="expense_red">#E57373</color>
+</resources> 

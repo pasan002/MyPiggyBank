@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_login">
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.example.mypiggybank.ui.fragments.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_dashboard"
+            app:destination="@id/navigation_dashboard"
+            app:popUpTo="@id/navigation_login"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.mypiggybank.ui.fragments.DashboardFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_transactions"
+        android:name="com.example.mypiggybank.ui.fragments.TransactionsFragment"
+        android:label="Transactions" />
+
+    <fragment
+        android:id="@+id/navigation_budget"
+        android:name="com.example.mypiggybank.ui.fragments.BudgetFragment"
+        android:label="Budget">
+        <action
+            android:id="@+id/action_budget_to_comparison"
+            app:destination="@id/navigation_budget_comparison" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_budget_comparison"
+        android:name="com.example.mypiggybank.ui.fragments.BudgetComparisonFragment"
+        android:label="Budget Comparison" />
+
+    <fragment
+        android:id="@+id/navigation_tools"
+        android:name="com.example.mypiggybank.ui.fragments.ToolsFragment"
+        android:label="Tools" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.mypiggybank.ui.fragments.SettingsFragment"
+        android:label="Settings" />
+
+</navigation> 

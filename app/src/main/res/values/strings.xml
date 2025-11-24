@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">My Piggy Bank</string>
+
+    <!-- Navigation -->
+    <string name="navigation_dashboard">Dashboard</string>
+    <string name="navigation_transactions">Transactions</string>
+    <string name="navigation_budget">Budget</string>
+    <string name="navigation_tools">Tools</string>
+    <string name="navigation_settings">Settings</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_backup_reminder">Backup Reminders</string>
+    <string name="settings_currency">Currency</string>
+    <string name="settings_backup_frequency">Backup Frequency</string>
+    <string name="settings_backup_data">Backup Data</string>
+    <string name="settings_restore_data">Restore Data</string>
+    <string name="settings_reset">Reset All Settings</string>
+
+    <!-- Backup Messages -->
+    <string name="backup_success">Data backed up successfully</string>
+    <string name="backup_failed">Backup failed</string>
+    <string name="backup_error">Backup failed: %1$s</string>
+    <string name="restore_success">Data restored successfully</string>
+    <string name="restore_no_data">No backup data available to restore</string>
+    <string name="restore_error">Restore failed: %1$s</string>
+
+    <!-- Dialog Messages -->
+    <string name="dialog_restore_title">Restore Data</string>
+    <string name="dialog_restore_message">Are you sure you want to restore your data? This will replace all current transactions.</string>
+    <string name="dialog_restore_confirm">Restore</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_reset_title">Reset Settings</string>
+    <string name="dialog_reset_message">Are you sure you want to reset all settings to default?</string>
+    <string name="dialog_reset_confirm">Reset</string>
+
+    <!-- Currency Options -->
+    <string name="currency_inr">INR (₹)</string>
+    <string name="currency_usd">USD ($)</string>
+    <string name="currency_eur">EUR (€)</string>
+    <string name="currency_gbp">GBP (£)</string>
+
+    <!-- Backup Frequency Options -->
+    <string name="backup_frequency_daily">Every day</string>
+    <string name="backup_frequency_3days">Every 3 days</string>
+    <string name="backup_frequency_weekly">Every 7 days</string>
+    <string name="backup_frequency_biweekly">Every 14 days</string>
+    <string name="backup_frequency_monthly">Every 30 days</string>
+
+    <!-- Welcome Message -->
+    <string name="welcome_to_imilipocket">Welcome to My PiggyBank!</string>
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="select_date">Select Date</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="edit_transaction">Edit Transaction</string>
+    <string name="delete_transaction">Delete Transaction</string>
+    
+    <!-- Financial Tools -->
+    <string name="tools_title">Financial Tools</string>
+    <string name="emi_calculator">EMI Calculator</string>
+    <string name="emi_description">Calculate loan EMI, interest and total payment</string>
+    <string name="investment_calculator">Investment Calculator</string>
+    <string name="investment_description">Calculate returns on SIP, FD and other investments</string>
+    <string name="gst_calculator">GST Calculator</string>
+    <string name="gst_description">Calculate GST amount and final price</string>
+    <string name="currency_converter">Currency Converter</string>
+    <string name="currency_description">Convert between different currencies</string>
+    <string name="split_bill">Split Bill Calculator</string>
+    <string name="split_bill_description">Split bills and calculate per person amount</string>
+    <string name="coming_soon">Coming Soon</string>
+</resources>
